@@ -6,6 +6,7 @@
 
 .fighter-preview___right {
   align-items: flex-end;
+  transform: scaleX(-1);
 }
 
 .fighter-preview___left {
