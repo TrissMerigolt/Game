@@ -14,6 +14,7 @@ const responseMiddleware = (req, res, next) => {
 
     module.exports = {
         isAuthorized
+        add
     }
 
 
