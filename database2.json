@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "firstName": "Vasya1",
+      "lastName": "Pupkin1",
+      "email": "v1@gmail",
+      "phoneNumber": " +380931111111",
+      "password": "1111"
+    },
+    {
+      "id": "2",
+      "firstName": "Vasya2",
+      "lastName": "Pupkin2",
+      "email": "v2@gmail",
+      "phoneNumber": " +380932222222",
+      "password": "2222"
+    }
+  ],
+  "fighters": [
+    {
+      "id": "3",
+      "name": "Ruy",
+      "health": "80 <= health <= 120",
+      "power": "1 <= power <= 100",
+      "defense": "1 <= defense <= 10, // 1 to 10"
+    },
+    {
+      "id": "4",
+      "name": "Ruy2",
+      "health": "80 <= health <= 120",
+      "power": "1 <= power <= 100",
+      "defense": "1 <= defense <= 10, // 1 to 10"
+    }
+  ],
+  "fights": []
+}

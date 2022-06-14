@@ -1,7 +1,12 @@
+var express = require('express');
+var router = express.Router();
+
 const userRoutes = require('./userRoutes');
 const authRoutes = require('./authRoutes');
 const fighterRoutes = require('./fighterRoutes');
 const fightRoutes = require('./fightRoutes');
+
+
 
 module.exports = (app) => {
     app.use('/api/users', userRoutes);
@@ -9,3 +14,8 @@ module.exports = (app) => {
     app.use('/api/fights', fightRoutes);
     app.use('/api/auth', authRoutes);
   };
+
+router.get('/', function(req, res, next) {
+    res.send('Express');
+});
+module.exports = router;
